@@ -49,7 +49,7 @@ jobs:
           context: .
           push: true
           tags: |
-            sachinfe/sachinfe/weather-checker:latest
-            sachinfe/sachinfe/weather-checker:${{ github.ref_name }}
-            sachinfe/sachinfe/weather-checker:${{ env.SHORT_SHA }}
-            sachinfe/sachinfe/weather-checker:${{ github.ref_name }}-${{ env.DATE_TIME }}-${{ env.TIME }}
+            sachinfe/weather-checker:latest
+            sachinfe/weather-checker:${{ github.ref_name }}
+            sachinfe/weather-checker:${{ env.SHORT_SHA }}
+            sachinfe/weather-checker:${{ github.ref_name }}-${{ env.DATE_TIME }}-${{ env.TIME }}
