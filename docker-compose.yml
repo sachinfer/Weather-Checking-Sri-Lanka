@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  weather-app:
+    build: .
+    container_name: weather-app
+    environment:
+      - API_KEY=your_openweathermap_api_key
+    volumes:
+      - .:/app
