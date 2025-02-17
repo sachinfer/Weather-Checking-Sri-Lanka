@@ -10,3 +10,4 @@ def fetch_weather_data(api_key, city="Colombo"):
         return response.json()
     else:
         raise Exception(f"Failed to fetch weather data: {response.status_code}")
+#test
